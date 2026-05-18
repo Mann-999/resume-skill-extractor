@@ -1,0 +1,19 @@
+{
+  "technical": [
+    "python", "java", "javascript", "typescript", "c", "c++", "c#", "ruby", "swift", "kotlin", "golang", "r", "scala", "perl",
+    "html", "css", "react", "angular", "vue", "nodejs", "express", "django", "flask", "spring", "hibernate",
+    "sql", "mysql", "postgresql", "mongodb", "redis", "oracle", "sqlite", "cassandra",
+    "machine learning", "deep learning", "natural language processing", "nlp", "computer vision", "tensorflow", "keras", "pytorch", "scikit-learn", "pandas", "numpy", "matplotlib",
+    "aws", "azure", "gcp", "docker", "kubernetes", "jenkins", "git", "github", "linux", "bash",
+    "rest api", "graphql", "microservices", "agile", "scrum", "jira", "excel", "tableau", "power bi",
+    "data analysis", "data science", "big data", "hadoop", "spark", "kafka",
+    "android", "ios", "flutter", "react native",
+    "cybersecurity", "networking", "tcp/ip", "devops", "ci/cd"
+  ],
+  "soft": [
+    "leadership", "communication", "teamwork", "problem solving", "critical thinking",
+    "time management", "adaptability", "creativity", "collaboration", "attention to detail",
+    "multitasking", "decision making", "conflict resolution", "emotional intelligence",
+    "presentation", "negotiation", "mentoring", "project management", "analytical thinking"
+  ]
+}
