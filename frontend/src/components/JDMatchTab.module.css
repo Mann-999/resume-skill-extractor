@@ -1,0 +1,179 @@
+.container { display: flex; flex-direction: column; gap: 16px; }
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--accent3);
+  flex-shrink: 0;
+}
+
+.hint {
+  color: var(--text-dimmer);
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.jdList { display: flex; flex-direction: column; gap: 16px; }
+
+.jdItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.jdHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jdNum {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dimmer);
+}
+
+.removeBtn {
+  background: transparent;
+  color: var(--text-dimmer);
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: color 0.15s;
+}
+.removeBtn:hover { color: var(--accent2); }
+
+.titleInput {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 9px 12px;
+  width: 100%;
+  transition: border-color 0.15s;
+}
+.titleInput:focus { border-color: var(--accent); }
+.titleInput::placeholder { color: var(--text-dimmer); }
+
+.jdTextarea {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.6;
+  padding: 10px 12px;
+  width: 100%;
+  resize: vertical;
+  transition: border-color 0.15s;
+}
+.jdTextarea:focus { border-color: var(--accent3); }
+.jdTextarea::placeholder { color: var(--text-dimmer); }
+
+.jdActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.error {
+  color: var(--accent2);
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.results { display: flex; flex-direction: column; gap: 12px; }
+
+.resultsTitle {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-dim);
+  letter-spacing: 0.02em;
+}
+
+.matchCard { display: flex; flex-direction: column; gap: 10px; }
+
+.matchTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.matchLeft { display: flex; align-items: center; gap: 10px; }
+
+.matchRank {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dimmer);
+}
+
+.matchTitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.matchScore {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.scoreBar {
+  height: 5px;
+  background: var(--surface2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.scoreBarFill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.verdict {
+  color: var(--text-dim);
+  font-size: 13.5px;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.skillsRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.skillGroup { display: flex; flex-direction: column; gap: 6px; }
+
+.skillLabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dimmer);
+}
+
+.skillTags { display: flex; flex-wrap: wrap; gap: 6px; }

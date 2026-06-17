@@ -1,0 +1,68 @@
+.container { display: flex; flex-direction: column; gap: 16px; }
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+.roles { display: flex; flex-direction: column; gap: 18px; }
+
+.roleRow { display: flex; flex-direction: column; gap: 6px; }
+
+.roleHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.roleRank {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dimmer);
+  width: 24px;
+}
+
+.roleName {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text);
+  flex: 1;
+}
+
+.roleScore {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.barTrack {
+  height: 6px;
+  background: var(--surface2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reasoning {
+  color: var(--text-dim);
+  font-size: 14px;
+  line-height: 1.7;
+}
